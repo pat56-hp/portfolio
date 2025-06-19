@@ -165,6 +165,7 @@ export default function AboutSection({
                   width={300}
                   height={300}
                   className="rounded-md object-cover h-full"
+                  priority
                 />
               </div>
             </div>
