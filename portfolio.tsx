@@ -96,7 +96,6 @@ export default function Component() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
   const activeSection = useActiveSection();
-  const fullText = "Développeur web backend";
 
   // Gestion du scroll to top
   useEffect(() => {
