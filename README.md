@@ -1,6 +1,6 @@
-# Portfolio – Alexandre Dubois
+# Portfolio – Patrick Aimé Kouassi
 
-Bienvenue sur le portfolio d’Alexandre Dubois, développeur backend expert.
+Bienvenue sur le portfolio de Patrick Aimé Kouassi, développeur web backend.
 
 Ce projet met en avant mes compétences, expériences et réalisations à travers une interface moderne, responsive et animée, développée avec Next.js, React, TypeScript et Tailwind CSS.
 
@@ -25,15 +25,27 @@ Ce projet met en avant mes compétences, expériences et réalisations à traver
 ## 📁 Structure du projet
 
 ```
+├── app/
+│   ├── globals.css           # Styles globaux
+│   ├── layout.tsx            # Layout principal
+│   └── page.tsx              # Page d'entrée (redirige vers portfolio.tsx)
 ├── components/
-│   ├── sections/         # Sections du portfolio (About, Skills, Projects, ...)
-│   └── ui/               # Composants UI réutilisables (Button, Modal, ...)
+│   ├── sections/             # Sections du portfolio (About, Skills, Projects, Experience, Contact, Header, Footer)
+│   └── ui/                   # Composants UI réutilisables (Button, Modal, Dialog, etc.)
+│   └── theme-provider.tsx    # Provider pour le thème
+├── hooks/                    # Hooks personnalisés (use-mobile, use-toast)
 ├── lib/
-│   └── sectionsData.ts   # Données centralisées (navigation, projets, etc.)
+│   └── sectionsData.ts       # Données centralisées (navigation, projets, etc.)
+│   └── utils.ts              # Fonctions utilitaires
 ├── public/
-│   ├── images/           # Images du portfolio
-│   └── cv.pdf            # CV à afficher/télécharger
-├── portfolio.tsx         # Page principale
+│   ├── images/               # Images du portfolio et des projets
+│   └── cv.pdf                # CV à afficher/télécharger
+├── styles/
+│   └── globals.css           # Styles additionnels
+├── portfolio.tsx             # Page principale du portfolio
+├── package.json              # Dépendances et scripts
+├── tailwind.config.ts        # Configuration Tailwind
+├── tsconfig.json             # Configuration TypeScript
 └── ...
 ```
 
@@ -41,7 +53,7 @@ Ce projet met en avant mes compétences, expériences et réalisations à traver
 
 1. **Cloner le repo**
    ```bash
-   git clone https://github.com/votre-utilisateur/portfolio.git
+   git clone https://github.com/pat56-hp/portfolio.git
    cd portfolio
    ```
 2. **Installer les dépendances**
@@ -56,7 +68,7 @@ Ce projet met en avant mes compétences, expériences et réalisations à traver
    # ou
    yarn dev
    ```
-4. **Accéder à l’application**
+4. **Accéder à l'application**
    Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
 ## ⚙️ Personnalisation
@@ -75,11 +87,11 @@ Le projet est prêt pour un déploiement sur [Vercel](https://vercel.com/) ou to
 
 ## 👤 Auteur
 
-**Alexandre Dubois**  
-Développeur Backend & Fullstack  
-[LinkedIn](https://linkedin.com/in/...)  
-[Email](mailto:...)
+**Patrick Aimé Kouassi**  
+Développeur web backend & Fullstack  
+[LinkedIn](https://linkedin.com/in/Patrick-aime)  
+[Email](mailto:patrickkouassi7@gmail.com)
 
 ---
 
-> Ce portfolio est open source. N’hésitez pas à le forker, l’adapter ou me contacter pour toute collaboration !
+> Ce portfolio est open source. N'hésitez pas à le forker, l'adapter ou me contacter pour toute collaboration !
