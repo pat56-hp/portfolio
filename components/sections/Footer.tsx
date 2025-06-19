@@ -22,7 +22,7 @@ export default function Footer() {
           <div className="flex items-center space-x-4">
             <Button
               variant="ghost"
-              size="sm"
+              size="icon"
               className="text-foreground hover:text-foreground"
               asChild
               aria-label="GitHub"
@@ -33,11 +33,12 @@ export default function Footer() {
                 rel="noopener noreferrer"
               >
                 <Github className="h-4 w-4" />
+                <span className="sr-only">GitHub</span>
               </a>
             </Button>
             <Button
               variant="ghost"
-              size="sm"
+              size="icon"
               className="text-foreground hover:text-foreground"
               asChild
               aria-label="LinkedIn"
@@ -48,11 +49,12 @@ export default function Footer() {
                 rel="noopener noreferrer"
               >
                 <Linkedin className="h-4 w-4" />
+                <span className="sr-only">LinkedIn</span>
               </a>
             </Button>
             <Button
               variant="ghost"
-              size="sm"
+              size="icon"
               className="text-foreground hover:text-foreground"
               aria-label="Email"
             >
@@ -62,6 +64,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
               >
                 <Mail className="h-4 w-4" />
+                <span className="sr-only">Email</span>
               </a>
             </Button>
           </div>
