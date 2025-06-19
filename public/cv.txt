@@ -1,0 +1,188 @@
+CONTACT
++225 07 083 777 51
+patrickkouassi7@gmail.com
+Abidjan, Côte d’Ivoire
+Abobo Belleville
+RESEAU
+/patrick.aime.714
+@ParkeurH
+/in/Patrick-aime
+@Pat56-hp
+LANGUAGES / FRAMEWORKS
+HTML 5 / CSS 3
+BOOTSTRAP / TAILWIND CSS
+JAVASCRIPT / JQUERY / REACT JS / INERTIA JS
+NODEJS / EXPRESS JS
+PHP / LARAVEL 5 - 12
+MYSQL / SQL / MERISE
+DART / FLUTTER
+ELECTRON (Desktop)
+WLANGAGE
+WORDPRESS
+LOGICIELS / OUTILS
+• Visual Studio Code / Trae / Cursor
+• PhpStorm
+• Postman
+• Insomnia
+• FileZilla
+• Git / Github
+• Figma
+• Firebase
+P a t r i c k A i m é
+KOUASSI
+D E V E L O P P E U R W E B
+A PROPOS DE MOI
+Développeur web orienté back-end avec une ouverture sur le front-end et le mobile, je suis
+passionné par les technologies et l’innovation. Curieux, adaptable et rigoureux, je mets mes
+compétences au service de projets ambitieux, en alliant performance technique et esprit
+d’équipe.
+EXPERIENCES
+Mai 2023 –
+Aujourd’hui
+Janv 2022 – Mai
+2023
+Juin 2021 -
+Décembre 2021
+Nov 2019 - Mai
+2020
+LEAD DEVELOPPEUR Tinitz I Cocody Angré
+Je suis chargé de la conception technique des projets, de l’encadrement de
+l’équipe de développement ainsi que de la mise en œuvre de bonnes
+pratiques telles que l’intégration et le déploiement continus (CI/CD) et les
+revues de code. Je veille à la qualité du code, au respect des délais et à la
+coordination avec les équipes produit et design pour garantir la cohérence
+des livrables avec les objectifs métier.
+DEVELOPPEUR WEB FULL STACK Tinitz I Cocody Angré
+En tant que développeur web full stack chez Tinitz, j’ai conçu et développé
+des applications web de bout en bout, en prenant en charge à la fois les
+volets front-end et back-end. J’ai travaillé sur l’intégration d’APIs, la gestion
+des bases de données ainsi que l’optimisation des performances. J’ai
+également contribué à la formation des utilisateurs et collaboré étroitement
+avec les équipes produit et design afin de transformer les besoins
+fonctionnels en solutions techniques robustes, évolutives et adaptées aux
+utilisateurs.
+STAGE DEVELOPPEUR WEB Tinitz I Cocody Angré
+J’occupais une fonction polyvalente dans la conception et le développement
+de sites web, en assurant la création de concepts digitaux personnalisés et
+sur mesure. J’ai réalisé des sites responsives, entièrement optimisés pour les
+environnements mobiles. En lien direct avec les clients, j’étais chargé
+d’analyser leurs besoins et de les traduire en solutions techniques
+cohérentes. J’ai également contribué à la planification des projets et à
+l’élaboration des plannings éditoriaux.
+STAGE DEVELOPPEUR DESKTOP DHG I Vridi Tipostal
+En tant que concepteur d’applications desktop sous WinDev 20, j’ai
+développé des solutions logicielles répondant à des besoins métiers
+spécifiques. J’ai notamment travaillé sur la mise en relation et l’exploitation
+de fichiers Excel servant au codage des stations, afin d’en automatiser le
+traitement et d’en améliorer la fiabilité.
+FORMATION
+2018 - 2020
+2014 - 2016
+2013 - 2014
+Brevet de Technicien Supérieur (IDA)
+Institut de Formation Ste Marie (IFSM) | Abidjan
+Acquisition et maîtrise des compétences informatiques techniques
+généralistes : programmation, développement logiciels, langages IT,
+assistance technique.
+Tronc Commun en medecine
+Université Nanguy Abrogoua | Abidjan
+Bien que cette experience n’aie été fructueuse, elle m’a permis néanmoins
+de découvrir certaines aptitudes qui m’ont orientées vers le domaine du
+développement d’application web.
+Baccalauréat Série D
+Collège Education-Paix-Développement | AbidjanSYSTEMES D’EXPLOITATION
+QUELQUES PROJETS REALISES
+• Windows (XP, Vista, 7, 8, 10, 11)
+• MacOS
+Janv 2025 – Fev
+2025
+BUREAUTIQUE
+• Pack Office (Word, Excel, PowerPoint)
+Nov 2024 – Fev
+2025
+COMPETENCES CLES
+• Ergonomie des interfaces
+• Notoriété en ligne
+• Planification et gestion de projet
+• Coding backend Laravel
+2018 - PRESENT
+Mai 2024 – Sept
+2024
+SOFT SKILLS
+• Fiable et rigoureux
+• Réactif et toujours à la pointe des dernières
+technologies
+• Enthousiaste et curieux
+• Team player
+• Orienté solutions
+Fev 2024
+LANGUES
+Août 2023 – Nov
+2023
+Français
+Anglais
+Fev – Mars 2023
+Sept – Nov 2022
+GESTION DES DEPENSES https://github.com/pat56-hp/depenses_app
+Contexte : Mise en place d’une application mobile pour la gestion des
+dépenses (entrées & sorties)
+Rôle : Développeur mobile
+Outils : Laravel, API Rest, Flutter, Firebase, Visual Studio Code, Insomnia, Git,
+Github
+BON PLANS https://github.com/pat56-hp/bonplan
+Contexte : Mise en place d’une plateforme web & mobile pour la découverte
+des bons plans de divertissement en Côte d’Ivoire
+Rôle : Développeur web & mobile
+Outils : Laravel, API Rest, Bootstrap, Jquery, React Js, Flutter, PhpStorm,
+Visual Studio Code, Insomnia, Git, Github
+CODITRANS https://coditrans.ci
+Contexte : Mise en place d’une plateforme permettant le suivi des
+demandes de collecte, l’affectation de course aux agents, la getion des
+courses.
+Rôle : Lead Dev
+Outils : Laravel, API Rest, Bootstrap, Jquery, Javascript, Firebase, PhpStorm,
+Visual Studio Code, Insomnia, Electron
+APP DEVIS https://github.com/pat56-hp/laravel-react-devis-app
+Contexte : Gestion des devis (Projet personnel)
+Rôle : Lead Dev
+Outils : Laravel, Bootstrap, React Js, PhpStorm, API Rest, Visual Studio Code,
+Insomnia, Electron, Git, Github
+TINITZ DISPLAY & Pressecotedivoire https://pressecotedivoire.ci
+Contexte : Mise à disposition de journaux par code QR à partir d’une borne
+d’affichage, Refonte et optimization de l’administration de
+Pressecotedivoire
+Rôle : Lead Dev
+Outils : Laravel, Bootstrap, Jquery, Javascript, Firebase, Flutter, PhpStorm,
+API Rest, Visual Studio Code, Insomnia
+CIC Côte d’Ivoire Câbles | Application métier
+Contexte : Mise en place d’une application web et desktop pour la gestion
+des présences des employés en récupérant les pointages depuis IVMS.
+Rôle : Lead Dev
+Outils : Laravel, Bootstrap, Jquery, Javascript, Electron, PhpStorm, Visual
+Studio Code, TeamViewer, IVMS
+HESED
+https://hesedorg.com
+Contexte : Création d’une plateforme web mettant en relation des clubs et
+apprenants.
+Rôle : Développeur fullstack
+Tâche :
+• Modéliser et implementer la base de données
+• Développer certains modules de l’application
+• Intégration de Cinetpay et Paypal
+• Création d’API Rest
+Outils : Laravel, Insomnia, Jquery, Javascript, PhpStorm
+Sept 2021 – Dec
+2021
+GOA OUTLETS https://goaoutlets.com
+Contexte : Création d’applications de gestion de stock, d’inventaire et POS,
+E-commerce
+Rôle : Développeur fullstack
+Tâche :
+• Modéliser et implementer la base de données
+• Développer des modules de l’application (Gestion d’entrepôt, Gestion
+des produits, Importation et exportation d’états, POS, Caisse,
+Commande, Statistique …)
+• Formation des utilisateurs
+• Maintenance évolutive
+Outils : Laravel, Jquery, Javascript, Ajax, PhpStorm
+
