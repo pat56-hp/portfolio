@@ -161,7 +161,7 @@ export default function AboutSection({
               <div className="w-full h-full rounded-xl bg-background flex items-center justify-center p-2">
                 <Image
                   src={`${about.image}?height=300&width=300`}
-                  alt={about.name}
+                  alt={`Portrait de ${about.name}`}
                   width={300}
                   height={300}
                   className="rounded-md object-cover h-full"

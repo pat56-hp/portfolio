@@ -25,6 +25,7 @@ export default function Footer() {
               size="sm"
               className="text-foreground hover:text-foreground"
               asChild
+              aria-label="GitHub"
             >
               <a
                 href={`https://github.com/${about.github.replace("@", "")}`}
@@ -39,6 +40,7 @@ export default function Footer() {
               size="sm"
               className="text-foreground hover:text-foreground"
               asChild
+              aria-label="LinkedIn"
             >
               <a
                 href={`https://linkedin.com${about.linkedin}`}
@@ -52,6 +54,7 @@ export default function Footer() {
               variant="ghost"
               size="sm"
               className="text-foreground hover:text-foreground"
+              aria-label="Email"
             >
               <a
                 href={`mailto:${about.email}`}

@@ -2,7 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ExternalLink, ChevronLeft, ChevronRight, X } from "lucide-react";
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 
@@ -56,6 +56,7 @@ function ProjectImagesCarousel({
                 <Image
                   src={img}
                   alt={`Image du projet ${idx + 1}`}
+                  aria-label={`Image du projet ${idx + 1}`}
                   width={400}
                   height={300}
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
@@ -114,6 +115,46 @@ export default function ProjectsSection({
   const [modalOpen, setModalOpen] = useState(false);
   const [modalImages, setModalImages] = useState<string[]>([]);
   const [modalIndex, setModalIndex] = useState(0);
+  const modalRef = useRef<HTMLDivElement>(null);
+
+  // Focus trap + fermeture Escape pour le modal
+  useEffect(() => {
+    if (!modalOpen) return;
+    const focusableSelectors = [
+      "button:not([disabled])",
+      "img",
+      '[tabindex]:not([tabindex="-1"])',
+    ];
+    const modal = modalRef.current;
+    if (!modal) return;
+    const focusables = modal.querySelectorAll<HTMLElement>(
+      focusableSelectors.join(", ")
+    );
+    if (focusables.length) focusables[0].focus();
+
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        setModalOpen(false);
+      }
+      if (e.key === "Tab" && focusables.length > 0) {
+        const first = focusables[0];
+        const last = focusables[focusables.length - 1];
+        if (e.shiftKey) {
+          if (document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          }
+        } else {
+          if (document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
+      }
+    }
+    modal.addEventListener("keydown", handleKeyDown);
+    return () => modal.removeEventListener("keydown", handleKeyDown);
+  }, [modalOpen]);
 
   // Fonction pour ouvrir le modal avec les images d'un projet
   const handleImageClick = (images: string[], idx: number) => {
@@ -232,7 +273,13 @@ export default function ProjectsSection({
       </div>
       {/* Modal global */}
       {modalOpen && (
-        <div className="fixed inset-0 z-[9999] w-screen h-screen flex items-center justify-center bg-black/80">
+        <div
+          className="fixed inset-0 z-[9999] w-screen h-screen flex items-center justify-center bg-black/80"
+          ref={modalRef}
+          tabIndex={-1}
+          aria-modal="true"
+          role="dialog"
+        >
           <button
             className="absolute top-4 right-4 bg-background/80 rounded-full p-2"
             onClick={() => setModalOpen(false)}
@@ -256,6 +303,7 @@ export default function ProjectsSection({
           <Image
             src={modalImages[modalIndex]}
             alt={`Image du projet agrandie ${modalIndex + 1}`}
+            aria-label={`Image du projet agrandie ${modalIndex + 1}`}
             width={900}
             height={700}
             className="max-h-[80vh] w-auto rounded-lg shadow-lg"
